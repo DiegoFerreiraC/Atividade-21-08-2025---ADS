@@ -55,3 +55,56 @@ main{
     margin-bottom: 100px;
 }
 
+section.contact-section {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    border: 2px solid #666;
+    background-color: Silver;
+    text-align: center;
+    margin: 20px 200px;
+    padding: 20px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+#contact-form div {
+    border: none; /* remove as bordas dos blocos */
+}
+
+
+
+#contact-form div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+#contact-form label {
+    width: 100px;       
+    text-align: right;  
+}
+
+#contact-form input, textarea {
+    flex: 1;          
+    max-width: 300px;   
+    padding: 6px;
+}
+.msg textarea{
+    min-width: 100px;
+}
+.enviarmsg{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: RoyalBlue;
+    color: white;
+    width: 100px;
+    height: 30px;
+    letter-spacing: 3px;
+}
