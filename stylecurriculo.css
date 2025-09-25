@@ -37,6 +37,8 @@ div{
     margin-left: 200px;
     margin-right: 200px;
     font-weight: normal;
+    display: block;
+  
 }
 div#inicio{
     background-color: transparent;
@@ -75,10 +77,8 @@ section.contact-section {
     text-align: center;
 }
 #contact-form div {
-    border: none; /* remove as bordas dos blocos */
+    border: none; 
 }
-
-
 
 #contact-form div {
     display: flex;
